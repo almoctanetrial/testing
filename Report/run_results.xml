@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>agentName.Set</Name>
+    <Description>"john"</Description>
+    <StartTime>2016-11-15 11:09:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[agentName]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["john"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[agentName]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d5e065dee2ae45b78b2b1d876cc74c73</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\41eaf85f-052f-46c3-91ab-0348cf0675d6.png" highlight="598,394,404,42" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>password.SetSecure</Name>
+    <Description>"580465147d79a3cf29fd"</Description>
+    <StartTime>2016-11-15 11:09:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[password]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetSecure</Operation>
+        <OperationData><![CDATA["580465147d79a3cf29fd"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d5e065dee2ae45b78b2b1d876cc74c73</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4f1143f8-64e1-4124-8495-17423fbf2b6e.png" highlight="598,457,404,42" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>OK.Click</Name>
+    <Description />
+    <StartTime>2016-11-15 11:09:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[OK]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[OK]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[okButton]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c4331472db74b1cb8169c0b82e75514</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\b23c4ab6-d183-4809-b92b-5ea365875fb9.png" highlight="598,520,73,36" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>fromCity.Select</Name>
+    <Description>"Frankfurt"</Description>
+    <StartTime>2016-11-15 11:09:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[fromCity]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Frankfurt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[fromCity]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fdf414e6b3a341d4be3ba531464fa72c</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a6963846-9362-4e6b-b614-4bbc447fa942.png" highlight="340,238,260,34" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>toCity.Select</Name>
+    <Description>"Denver"</Description>
+    <StartTime>2016-11-15 11:09:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[toCity]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Denver"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[toCity]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fdf414e6b3a341d4be3ba531464fa72c</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d7e93c73-7936-4632-ab84-b4d00310db2f.png" highlight="340,287,260,34" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>WpfImage_3.Click</Name>
+    <Description>8, 6</Description>
+    <StartTime>2016-11-15 11:09:41</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfImage</Type>
+            <Name><![CDATA[WpfImage_3]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA[8, 6]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[image]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[HP MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devnamepath]]></Name>
+            <Value><![CDATA[;;;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>126d4c0e227148eba630ade37ac4952e</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ad926edf-8800-4aef-bb9e-b7c0ff96df36.png" highlight="575,344,18,18" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Step">
+<Data>
+    <Name>Su</Name>
+    <Description>Object's physical description:&lt;br&gt;devname = &lt;br&gt;</Description>
+    <StartTime>2016-11-15 11:09:41</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfCalendar</Type>
+            <Name><![CDATA[Su]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object's physical description:<br>devname = <br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8a042f647a7947f9971e92852fbe4bc5</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+      <NodeType>Description</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Su</Name>
+    <Description>The "Su" object's description matches more than one of the objects currently displayed in your application. Add additional properties to the object description in order to uniquely identify the object.</Description>
+    <StartTime>2016-11-15 11:09:41</StartTime>
+    <Duration>0</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfCalendar</Type>
+            <Name><![CDATA[Su]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The "Su" object's description matches more than one of the objects currently displayed in your application. Add additional properties to the object description in order to uniquely identify the object.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>c7faa5ed831242b48fe613d6027cf744</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HP MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2016-11-15 11:09:31</StartTime>
+    <Duration>10</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[HP MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[HP MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>c4415fcf43194883acea6d0ca5871c8e</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\05ffc9bd-8d9a-4893-b061-b9f9f40078db.png" highlight="467,161,666,538" />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>The "Su" object's description matches more than one of the objects currently displayed in your application. Add additional properties to the object description in order to uniquely identify the object.</Name>
+    <ErrorText>The "Su" object's description matches more than one of the objects currently displayed in your application. Add additional properties to the object description in order to uniquely identify the object.</ErrorText>
+    <Description>The &amp;quot;Su&amp;quot; object's description matches more than one of the objects currently displayed in your application. Add additional properties to the object description in order to uniquely identify the object.&lt;BR/&gt;Line (7): &amp;quot;WpfWindow(&amp;quot;HP MyFlight Sample Application&amp;quot;).WpfCalendar(&amp;quot;Su&amp;quot;).SetDate &amp;quot;28-Oct-2016&amp;quot;&amp;quot;. </Description>
+    <StartTime>2016-11-15 11:09:41</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName>Action1</ModuleName>
+          <FileName>Action1</FileName>
+          <Language>VBScript - script block</Language>
+          <FunctionName>VBScript global code</FunctionName>
+          <Scripts>WpfWindow("HP MyFlight Sample Application").WpfCalendar("Su").SetDate "28-Oct-2016"</Scripts>
+          <LineNo>7</LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The &quot;Su&quot; object's description matches more than one of the objects currently displayed in your application. Add additional properties to the object description in order to uniquely identify the object.<BR/>Line (7): &quot;WpfWindow(&quot;HP MyFlight Sample Application&quot;).WpfCalendar(&quot;Su&quot;).SetDate &quot;28-Oct-2016&quot;&quot;. ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[HP MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[HP MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8a042f647a7947f9971e92852fbe4bc5</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4e8a74aa-2568-4a13-b14c-f6683a66fe72.png" highlight="312,141,976,578" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Class.Select</Name>
+    <Description>"Business"</Description>
+    <StartTime>2016-11-15 11:09:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[Class]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Business"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[combo box]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[Class]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fdf414e6b3a341d4be3ba531464fa72c</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\2cfbd4d0-700f-41ac-a2ce-a5922337ba81.png" highlight="340,435,160,34" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>numOfTickets.Select</Name>
+    <Description>"2"</Description>
+    <StartTime>2016-11-15 11:09:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[numOfTickets]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["2"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[numOfTickets]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fdf414e6b3a341d4be3ba531464fa72c</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\37417ba8-6b66-46f7-afc4-dfb7f2084498.png" highlight="520,435,80,34" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>FIND FLIGHTS.Click</Name>
+    <Description />
+    <StartTime>2016-11-15 11:09:49</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[FIND FLIGHTS]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[FIND FLIGHTS]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[FIND FLIGHTS]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c4331472db74b1cb8169c0b82e75514</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>flightsDataGrid.SelectCell</Name>
+    <Description>1, 1</Description>
+    <StartTime>2016-11-15 11:09:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfTable</Type>
+            <Name><![CDATA[flightsDataGrid]]></Name>
+          </Object>
+        </Path>
+        <Operation>SelectCell</Operation>
+        <OperationData><![CDATA[1, 1]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[flightsDataGrid]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>c1f51d40542049faa574f218faa357fa</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ddf0e8b5-acc6-4d43-b5c6-2e6f8414ff6f.png" highlight="320,260,960,386" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SELECT FLIGHT.Click</Name>
+    <Description />
+    <StartTime>2016-11-15 11:09:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[SELECT FLIGHT]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[SELECT FLIGHT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[selectFlightBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c4331472db74b1cb8169c0b82e75514</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>passengerName.Set</Name>
+    <Description>"Avi"</Description>
+    <StartTime>2016-11-15 11:09:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[passengerName]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Avi"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[passengerName]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d5e065dee2ae45b78b2b1d876cc74c73</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\58f4568b-b1db-438c-a1e4-3c2ad935da81.png" highlight="340,487,280,34" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ORDER.Click</Name>
+    <Description />
+    <StartTime>2016-11-15 11:09:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[ORDER]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ORDER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[orderBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c4331472db74b1cb8169c0b82e75514</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\98d3326b-1127-43c3-865e-2af3622c822f.png" highlight="508,655,112,36" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>HP MyFlight Sample Application.Close</Name>
+    <Description />
+    <StartTime>2016-11-15 11:09:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[HP MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[HP MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>c4415fcf43194883acea6d0ca5871c8e</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot highlight="0,0,0,0" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HP MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2016-11-15 11:09:41</StartTime>
+    <Duration>16</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HP MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[HP MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[HP MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>c4415fcf43194883acea6d0ca5871c8e</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\54857fba-68b0-44e6-844a-f1731949ed9a.png" highlight="312,141,976,578" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-11-15 11:09:27</StartTime>
+    <Duration>30</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>c2dca4326a0b454e930002ab533f6b01</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-11-15 11:09:27</StartTime>
+    <Duration>31</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>9cb4c44318534757a78839e4b237c53b</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>C:\Program Files (x86)\HP\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe</Name>
+        <Path>C:\Program Files (x86)\HP\Unified Functional Testing\samples\Flights Application</Path>
+        <Version />
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>flight_test</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.50</ToolVersion>
+    <Description />
+    <StartTime>2016-11-15 11:09:27</StartTime>
+    <Duration>31</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>521eb62606d14208b4e3884c56ed8933</IconKey>
+      <IsPlainTextNodeName>False</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>False</IsPlainTextStepInfo>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>Administrator</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>4096</TotalMemory>
+      <HostName>BTPVM698</HostName>
+      <OSInfo>Windows 8</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>flight_test</ResultName>
+    <RunStartTime>2016-11-15 11:09:27</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.50</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
